@@ -1,0 +1,97 @@
+
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-calendars/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-notifications/styles/material.css';
+@import "../node_modules/@syncfusion/ej2-react-grids/styles/material.css";
+.App {
+  text-align: center;
+}
+
+.main-div{
+  margin-top: 4rem;
+}
+
+ /* Specifies sample level styles for sidebar*/
+ #sidebar-wrapper.control-section {
+  padding: 15px 0px;
+}
+
+#sidebar-wrapper .default-sidebar {
+  z-index: 20 !important;
+}
+
+#sidebar-wrapper .e-content-animation {
+  width: auto;
+}
+
+.e-bigger #sidebar-wrapper .e-content-animation {
+  height: 477px;
+}
+
+.e-bigger .e-tbar-btn .tb-icons {
+  font-size: 20px;
+}
+
+.e-tbar-btn .tb-icons {
+  font-family: 'Material_toolbar';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+#sidebar-wrapper .sf-icon-profile:before {
+  float: right;
+  content: '\e717';
+  font-size: 25px;
+}
+
+#sidebar-wrapper .e-toolbar .e-icons {
+  font-size: 20px;
+}
+
+.e-tbar-menu-icon:before {
+  content: "\e718";
+}
+
+/* Specifies sample level styles for toolbar alignment*/
+
+#sidebar-wrapper .e-toolbar .e-toolbar-items .e-toolbar-item:not(.e-separator) {
+  padding: 2px;
+}
+
+
+.defaultToolbar.e-toolbar .e-folder {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: -2px;
+  margin-left: -1px;
+}
+
+.defaultToolbar.e-toolbar .e-create-report {
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.new_folder_button {
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  cursor: pointer;
+  font-weight: 200;
+  font-size: 14px;
+}
+.e-treeview .e-list-item.e-active > .e-text-content {
+  color: unset !important; 
+}
+.e-treeview .e-list-item.e-active > .e-text-content .e-list-text {
+  color: unset !important; 
+}
