@@ -1,9 +1,9 @@
 import './App.css';
-import Mainpage from './MainPage';
+import LandingPage from './pages/reportbuilder/LandingPage';
 function App() {
   return (
     <div className="main-div">
-      <Mainpage />
+      <LandingPage />
     </div>
   );
 }
