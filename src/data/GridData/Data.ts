@@ -49,3 +49,21 @@ export let reportData = [
     },
   ];
   
+  export const columns = [
+    { field: 'ReportID', headerText: 'Report ID', width: 120 },
+    {
+      field: 'ReportName',
+      width: 140,
+      headerText: 'Report Name',
+    },
+    {
+      field: 'CreatedBy',
+      width: 140,
+      headerText: 'Created By',
+    },
+    {
+      field: 'CreatedOn',
+      width: 140,
+      headerText: 'Created On',
+    },
+  ];

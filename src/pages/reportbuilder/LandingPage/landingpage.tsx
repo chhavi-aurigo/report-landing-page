@@ -2,6 +2,7 @@ import { useState } from 'react';
 import GridData from '../../../common/component/Grid/GridData';
 import Sidebar from '../../../common/component/Sidebar/Sidebar';
 import Toolbar from '../../../common/component/Toolbar/Toolbar';
+import { reportData, columns } from '../../../data/GridData/Data';
 
 export interface ILandingPageProps {}
 
@@ -13,7 +14,7 @@ export default function LandingPage(props: ILandingPageProps) {
       <Toolbar title={title} />
       <Sidebar setTitle={setTitle} />
       <div className="maincontent">
-        <GridData />
+        <GridData reportData={reportData} columns={columns} />
       </div>
     </div>
   );
