@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import GridData from '../../../common/component/Grid/GridData';
-import Sidebar from '../../../common/component/Sidebar/Sidebar';
-import Toolbar from '../../../common/component/Toolbar/Toolbar';
-import { reportData, columns } from '../../../data/GridData/Data';
+import GridData from '../../../common/component/Grid';
+import Sidebar from '../../../common/component/Sidebar';
+import Toolbar from '../../../common/component/Toolbar';
+import { reportData, columns } from '../../../data/GridData/data';
 
 export interface ILandingPageProps {}
 
